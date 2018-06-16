@@ -14,7 +14,7 @@ export default class PrimaryLoginPage extends React.Component {
       isVisible: false
     };
   }
-
+//test
     render(){
         return(
       
