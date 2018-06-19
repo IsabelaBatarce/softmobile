@@ -18,13 +18,17 @@ export default StackNavigator({
 },{
   navigationOptions:{
     title: "SoftMobile",
-    headerTintColor: "white",
+    headerTintColor: "#ecf0f1",
     headerStyle:{
-      backgroundColor: "#ddd"
+      backgroundColor: "#8e44ad",
+      justifyContent:'center'
+
     },
     headerTitleStyle:{
-      color: "white",
+      color: "#ecf0f1",
       fontSize: 25,
+      textAlign: 'center',
+
     }
   }
 

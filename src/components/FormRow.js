@@ -3,21 +3,11 @@ import { StyleSheet, View } from 'react-native';
 
 const FormRow = props => {
 
-	const { children, first, last } = props;
+	const { children} = props;
 
 		return(
 			
-			<View style={ [
-				
-				styles.container, 
-				
-				first? styles.first 
-				:null,
-
-				last? styles.last
-				:null
-
-			] }> 
+			<View style={styles.senha}  > 
 
 				{ children }
 
@@ -25,24 +15,14 @@ const FormRow = props => {
 		
 		)
 };
-
 const styles = StyleSheet.create({
-	container: {
-		padding: 10,
-		backgroundColor: '#f1f2f6',
-		marginTop: 5,
-		marginBottom: 5,
-		elevation: 1,
-	},
-	
-	first:{
-
-		marginTop: 10,
-	},
-
-	last:{
-		marginBottom: 10,
-	}
+senha: {
+	    paddingTop: 13,
+        paddingBottom: 12,
+        borderRadius: 4,
+        backgroundColor: 'white',
+        justifyContent:'center'
+         }
 })
 
 export default FormRow;
