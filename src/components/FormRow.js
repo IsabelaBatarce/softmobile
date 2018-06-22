@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
 	
 	first:{
 
-		marginTop: 10,
+		marginTop: 11,
 	},
 
 	last:{
